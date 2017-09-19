@@ -1,0 +1,11 @@
+{
+  "word_separators": "/\\()\"'-:,;<>~!@#$%^&*|+=[]{}`~?",
+  "tab_size": 8,
+  "translate_tabs_to_spaces": false,
+  "scroll_speed": 0.8,
+  "always_show_minimap_viewport": true,
+  "rulers": [80],
+  "animation_enabled": true,
+  "show_encoding": true,
+  "find_select_text": true
+}

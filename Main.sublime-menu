@@ -10,17 +10,17 @@
                 "children":
                 [
                     {
-                        "caption": "Baan",
+                        "caption": "LN",
                         "children":
                         [
                            {
                                 "command": "open_file",
-                                "args": {"file": "${packages}/Baan/Baan.sublime-settings"},
+                                "args": {"file": "${packages}/LN/LN.sublime-settings"},
                                 "caption": "Settings – Default"
                             },
                             {
                                 "command": "open_file",
-                                "args": { "file": "${packages}/User/Baan.sublime-settings" },
+                                "args": { "file": "${packages}/User/LN.sublime-settings" },
                                 "caption": "Settings – User"
                             }
                         ]

@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+function extern boolean $1.is.valid(long mode)
+{
+	if mode = 0 then
+		return(true)
+	endif
+}
+]]></content>
+    <tabTrigger>fun</tabTrigger>
+    <scope>source.LN</scope>
+    <description>function is.valid()</description>
+</snippet>

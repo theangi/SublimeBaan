@@ -2,15 +2,14 @@
     <content><![CDATA[
 on case $1
 case $2:
-
+	$3	
 	break
 default:
 
 	break
 endcase
-
 ]]></content>
     <tabTrigger>cas</tabTrigger>
-    <scope>source.baan</scope>
-    <description>on case</description>
+    <scope>source.LN</scope>
+    <description>on case switch statement</description>
 </snippet>

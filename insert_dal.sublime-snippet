@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+TODO!
+]]></content>
+    <tabTrigger>ins</tabTrigger>
+    <scope>source.LN</scope>
+    <description>insert record with DAL</description>
+</snippet>
