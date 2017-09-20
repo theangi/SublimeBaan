@@ -7,14 +7,28 @@
   <key>scope</key>
   <string>source.LN</string>
   <key>settings</key>
+
   <dict>
     <key>decreaseIndentPattern</key>
     <string>(^\s*(endselect|endif|else|selectempty|selecteos|endfor|endwhile|endcase)\s*(\|.*)*$)|^\s*}\s*(\|.*)*$|^\s*case\s+.+:\s*(\|.*)*$|^\s*(declaration|default|zoom\.from.*|form\.(\d|all)|choice\.\S+|on\.choice|field\.\S+|check\.input|when\.field\.changes|init\.form|after\.\S+|before\.\S+|main\.table\.io|functions)\s*:\s*(\|.*)*$</string>
+    
     <key>increaseIndentPattern</key>
     <string>(^\s*(selectdo|selectempty|selecteos|else|for|while|on case|case)\b)|^\s*{\s*(\|.*)*$|^\s*(declaration|default|on\.(choice|entry|exit)|check\.input|when\.field\.changes|init\.form|after\.\S+|before\.\S+)\s*:\s*(\|.*)*$|([^|]*\s+|^\s*)then\s*(\|.*)*$</string>
+    
     <key>unIndentedLinePattern</key>
     <string>^#ident|^\|</string>
+    
+    <key>shellVariables</key>
+    <array>
+      <dict>
+        <key>name</key>
+        <string>TM_COMMENT_START</string>
+        <key>value</key>
+        <string>| </string>
+      </dict>
+    </array>
   </dict>
+  
   <key>uuid</key>
   <string>9D268120-ECBF-11E2-943D-A114612EF252</string>
 </dict>
