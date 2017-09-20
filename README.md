@@ -1,4 +1,8 @@
-SublimeBaan
+SublimeLN
 ===========
 
-Baan syntax highlighting, indentation and snippets for Sublime Text 2 &amp; 3
+Baan & Infor LN tools designed for Sublime Text 3 (forked from https://github.com/masal/SublimeBaan).
+
+	syntax highlight
+    snippets for common code (DAL, functions, ...)
+    ...
