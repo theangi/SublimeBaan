@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+= tcmcs.dll9199.read.parameter.value("-parameter", "$1",
+					"-discrim", "",
+					"-company", "$2",
+					"-read.default", "false",
+					"-ignore.if.missing", "false")
+]]></content>
+    <tabTrigger>dynamic</tabTrigger>
+    <scope>source.LN</scope>
+    <description>Read Dynamic Parameters</description>
+</snippet>

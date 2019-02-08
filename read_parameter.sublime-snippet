@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+tcmcs.dll0095.read.parm("$1")
+]]></content>
+    <tabTrigger>read</tabTrigger>
+    <scope>source.LN</scope>
+    <description>read parameter table</description>
+</snippet>
