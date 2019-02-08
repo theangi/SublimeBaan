@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+ftcom.dll9005.send.mail(
+			"-sender.address", 	"noreply@ferrari.com",
+			"-subject", 		"$1",
+			"-to.address", 		"$2",
+			"-body.text/html", 	"$3",
+			"-attachment",		$4,
+			"-silent", 		true
+			)
+]]></content>
+    <tabTrigger>mail</tabTrigger>
+    <scope>source.LN</scope>
+    <description>LN10.4 - Send Mail</description>
+</snippet>

@@ -1,0 +1,25 @@
+<snippet>
+    <content><![CDATA[
+db.retry.point()
+select	$1.*
+from 	$1 for update
+where	$1._index1 = { : }
+as set with 1 rows
+selectdo
+	if dal.change.object("$1") = DALHOOKERROR then
+		return(false)
+	endif
+	
+	dal.set.field("$1.$2", $3)
+	
+	if dal.save.object("$1") = DALHOOKERROR then
+		return(false)
+	endif
+endselect
+
+commit.transaction()
+]]></content>
+    <tabTrigger>upd</tabTrigger>
+    <scope>source.LN</scope>
+    <description>update with DAL</description>
+</snippet>

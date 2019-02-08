@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+db.retry.point()
+
+select 	$1.*
+from 	$1 for update
+where 	$1._index1 = { :$2 }
+selectdo
+		$1.$3 =
+		dal.change.object()
+selectempty
+endselect
+
+commit.transaction()
+]]></content>
+    <tabTrigger>cha</tabTrigger>
+    <scope>source.LN</scope>
+    <description>Update Record with DAL</description>
+</snippet>
