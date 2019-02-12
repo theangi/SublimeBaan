@@ -26,6 +26,19 @@
         <key>value</key>
         <string>| </string>
       </dict>
+      <dict>
+        <key>name</key>
+        <string>TM_COMMENT_START_2</string>
+        <key>value</key>
+        <string>DllUsage</string>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>TM_COMMENT_END_2</string>
+        <key>value</key>
+        <string>EndDllUsage</string>
+      </dict>
+
     </array>
   </dict>
   

@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 ftcom.dll9005.send.mail(
-			"-sender.address", 	"noreply@ferrari.com",
+			"-sender.address", 	"noreply@company.com",
 			"-subject", 		"$1",
 			"-to.address", 		"$2",
 			"-body.text/html", 	"$3",
